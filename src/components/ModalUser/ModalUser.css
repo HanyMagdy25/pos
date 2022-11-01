@@ -1,0 +1,143 @@
+.modal-user {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  /* position: fixed; */
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 0 solid rgba(6, 9, 23, 0.2);
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  outline: 0;
+  pointer-events: auto;
+  position: relative;
+  width: 800px;
+}
+.modal-header {
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: 1.875rem;
+}
+.modal-header button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #adb5bd;
+}
+.modal-header span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* ******* modal-body ******** */
+.modal-body .card {
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color: #fff;
+  border: 0 solid rgba(6, 9, 23, 0.125);
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+}
+.modal-body .card .card-body {
+  padding: 2.5rem;
+}
+.row-form-user {
+  /* --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0; */
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: calc(var(--bs-gutter-x)*-.5);
+    margin-right: calc(var(--bs-gutter-x)*-.5);
+    margin-top: calc(var(--bs-gutter-y)*-1); */
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2%;
+}
+.row-form-user-input {
+  margin-bottom: 0.75rem !important;
+  flex: 0 0 auto;
+  width: 48%;
+}
+.form-label-user {
+  color: #343a40;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+.form-control {
+  appearance: none;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.313rem;
+  color: #6c757d;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.688rem 0.938rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  outline: none;
+}
+/* *********** Start Buttons ******** */
+.row-form-user-btns {
+    display: flex !important;
+  justify-content: flex-end !important;
+  margin-top: 1.25rem !important;
+  width: 100%;
+}
+.btn-primary,
+.btn-cancel {
+  background-color: #6571ff;
+  border-color: #6571ff;
+  color: #fff;
+  margin-right: 0.75rem !important;
+  box-shadow: none !important;
+  border: 1px solid transparent;
+  border-radius: 0.313rem;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.563rem 1.563rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+}
+.btn-primary:hover {
+  background-color: #5660d9;
+  border-color: #515acc;
+}
+.btn-cancel {
+  background-color: #bdc4ca;
+  border-color: #b5bcc4;
+}
+.btn-cancel:hover {
+  background-color: #b9c0c7;
+  border-color: #b5bcc4;
+}
+/* *********** End Buttons ******** */

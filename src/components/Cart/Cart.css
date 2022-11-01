@@ -1,0 +1,220 @@
+.cart {
+  width: 100%;
+}
+.main-table {
+  height: auto;
+  max-height: 470px;
+  min-height: calc(100vh - 354px);
+  overflow: auto;
+  width: 100%;
+}
+table {
+  border-color: #e9ecef;
+  color: #6c757d;
+  vertical-align: top;
+  width: 100%;
+  border-collapse: collapse;
+  caption-side: bottom;
+
+  display: table;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+table thead {
+  vertical-align: bottom;
+  top: 0 !important;
+  position: sticky !important;
+  border: 0 solid;
+  border-color: inherit;
+  display: table-header-group;
+}
+table thead tr {
+  border: 0 solid;
+  border-color: inherit;
+  display: table-row;
+  vertical-align: inherit;
+
+  border-bottom: 1px solid #eee;
+}
+table thead tr th {
+  /* min-width: 100px; */
+  padding-left: 0;
+  /* background-color: #fff; */
+  color: #212529;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  text-align: start;
+  padding: 10px 5px;
+}
+.td-empty {
+  padding: 10px 5px;
+  text-align: center !important;
+  width: 100%;
+  color: var(--black);
+}
+.del-icon button {
+  color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+.td-product-name h4{
+  font-size: 14px;
+  color: #212529!important;
+  text-transform: capitalize!important;
+  margin-bottom: 0.25rem!important;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.td-product-name span{
+  font-size: 10px;
+  background-color: #ccebfe;
+  color: #0099fb;
+  border-radius: 0.313rem;
+  display: inline-block;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.344rem 0.625rem;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+table tbody tr {
+  border-bottom: 1px solid #eee;
+  vertical-align: middle !important;
+}
+table tbody tr td {
+  /* border-bottom: 1px solid #eee; */
+  vertical-align: middle !important;
+  padding: 10px 5px;
+}
+
+/* btn */
+.counter button {
+  background-color: #e0e3ff;
+  border-color: #e0e3ff;
+  color: #6571ff;
+  height: 30px;
+  min-width: 30px;
+  padding: 10px;
+  width: 30px;
+  border-radius: 0.625rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+}
+.counter span {
+  appearance: none;
+  border: 0;
+  height: 30px;
+  line-height: 30px;
+  outline: 0;
+  text-align: center;
+  width: 45px;
+}
+
+/* ********* calculation ************* */
+.calculation {
+  margin-top: 15px;
+}
+.calculation-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calc-left,
+.calc-right {
+  margin-bottom: 0.5rem;
+  width: 50%;
+  /* background-color: #6571ff; */
+}
+.input-div {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.input-div input {
+  border-radius: 0.625rem !important;
+  outline: none;
+
+  appearance: none;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.313rem;
+  color: #6c757d;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.688rem 0.938rem;
+  width: 100%;
+}
+.input-div span {
+  position: absolute;
+
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: -1px;
+  background-color: transparent !important;
+  right: 0 !important;
+  border: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+
+  align-items: center;
+  border-radius: 0.313rem;
+  color: #6c757d;
+  display: flex;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.688rem 0.938rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* calc right */
+.calc-right {
+  margin-bottom: 0.5rem;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.calc-right h4 {
+  color: #6c757d !important;
+  font-size: 1.125rem !important;
+  margin-bottom: 0.5rem !important;
+}
+.calc-right h2 {
+  color: #343a40 !important;
+}
+
+/* *****two-btns-div******* */
+.two-btns-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.money-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}

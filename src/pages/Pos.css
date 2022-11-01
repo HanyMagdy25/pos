@@ -1,0 +1,197 @@
+.pos {
+  background-color: var(--bg-main);
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+  padding: 10px;
+  position: relative;
+}
+/* ****** Pos Left  ******** */
+.pos-left {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+/* ******** Left Top ********* */
+.pos-left-top {
+  /* background-color: var(--white); */
+  /* border-radius: 0.938rem; */
+  margin-bottom: 10px;
+  height: 60px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+/* ------ WareHouse ---- */
+.warehouse {
+  position: relative !important;
+  width: 50%;
+  background-color: var(--white);
+  height: 100%;
+  border-radius: 0.938rem;
+  display: flex;
+}
+.warehouse select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.938rem;
+  font-size: 0.875rem;
+  /* padding-left: 20px; */
+}
+.warehouse .home-icon ,
+.pos-left-top .user .home-icon{
+  /* position: absolute;
+  top: 0; 
+  left: 0; */
+  display: flex;
+  align-items: center;
+  margin: 0 3px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212529;
+}
+/* --------- User  ------------- */
+.pos-left-top .user{
+  position: relative !important;
+  width: 50%;
+  background-color: var(--white);
+  height: 100%;
+  border-radius: 0.938rem;
+  display: flex;
+}
+.pos-left-top .user select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.938rem;
+  font-size: 0.875rem;
+  /* padding-left: 20px; */
+  appearance: none;
+}
+.pos-left-top .user .user-icon {
+  /* position: absolute;
+  top: 0; 
+  left: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  font-size: 18px;
+  background-color: #6571ff!important;
+  border-color: #fff!important;
+  border-radius: 0 15px 15px 0!important;
+  color: #fff!important;
+  height: 100%;
+  width: 70px;
+  border: none;
+  
+}
+
+
+/*  */
+.pos-left-bottom {
+  background-color: var(--white);
+  border-radius: 0.938rem;
+  display: flex;
+  height: 100%;
+  padding: 10px;
+  /* background-color: aquamarine; */
+}
+
+/* Pos Right */
+.pos-right {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+}
+/* ******** pos-right-top ******** */
+.pos-right-top {
+  /* background-color: var(--white);
+  border-radius: 0.938rem; */
+  margin-bottom: 10px;
+  height: 60px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+}
+.pos-right-top-search {
+  height: 100%;
+  position: relative !important;
+  background-color: var(--white);
+  border-radius: 0.938rem;
+  width: 100%;
+}
+.pos-right-top-search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  /* border: 26px; */
+  /* border-radius: 15px; */
+  border-radius: 0.938rem;
+  outline: none;
+  padding: 0px 44px;
+}
+.pos-right-top-search span {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+}
+.pos-right-top-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end !important;
+  flex-wrap: nowrap !important;
+  display: flex;
+  /* list-style: none; */
+  padding-left: 0;
+}
+.pos-right-top-icons div {
+  width: 60px;
+  height: 100%;
+  background-color: var(--blue);
+  border-radius: 0.938rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.75rem!important;
+  cursor: pointer;
+}
+.pos-right-top-icons div:first-child {
+  background-color: var(--green);
+}
+.pos-right-top-icons div span{
+  font-size: 1.775rem!important;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pos-right-bottom {
+  background-color: var(--white);
+  border-radius: 0.938rem;
+  height: 100%;
+  padding: 10px;
+  /* background-color: aquamarine; */
+}
+
+/***********  All Products Section *************/
+.all-products {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 500px;
+  overflow-y: auto;
+  padding-top: 8px;
+  height: auto;
+}
+.all-products-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

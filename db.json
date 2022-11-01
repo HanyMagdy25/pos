@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "name": "Hany Magdy",
+      "email": "hany.magdy25@gmail.com",
+      "phone": "+201112994482",
+      "country": "Egypt",
+      "city": "Mansoura",
+      "address": "Mansoura",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "hany.magdy25@gmail.com",
+      "phone": "+201112994482",
+      "country": "Egyptdsfsdf",
+      "city": "Mansoura",
+      "address": "Mansoura",
+      "id": 2
+    },
+    {
+      "name": "hhhhhhh",
+      "email": "hany.magdy25@gmail.com",
+      "phone": "+201112994482",
+      "country": "Egypt",
+      "city": "Mansoura",
+      "address": "Mansoura",
+      "id": 3
+    }
+  ],
+  "warehouses": [
+    {
+      "id": 1,
+      "warehousName": "Warehouse 1",
+      "products": [
+        {
+          "id": "1",
+          "title": "Red T-shirt",
+          "image": "https://res.cloudinary.com/dia1kfg4m/image/upload/v1666903761/plain-t-shirt-500x500_grsjce.jpg",
+          "code": "29174328",
+          "price": 200,
+          "cat": ["Jackets", "T-shirts"]
+        },
+        {
+          "id": "3",
+          "title": "Shoes",
+          "image": "https://res.cloudinary.com/dia1kfg4m/image/upload/v1666903761/adidas-football-shoe-500x500_hdq2za.jpg",
+          "code": "29174328",
+          "price": 850,
+          "cat": ["Shoes"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "warehousName": "Warehouse 2",
+      "products": [
+        {
+          "id": "1",
+          "title": "Red T-shirt",
+          "image": "https://res.cloudinary.com/dia1kfg4m/image/upload/v1666903761/plain-t-shirt-500x500_grsjce.jpg",
+          "code": "29174328",
+          "price": 200,
+          "cat": ["Jackets", "T-shirts"]
+        },
+        {
+          "id": "4",
+          "title": "Sunglass",
+          "image": "https://res.cloudinary.com/dia1kfg4m/image/upload/v1666903761/glass_zo8vao.jpg",
+          "code": "29174328",
+          "price": 200,
+          "cat": ["sunglass"]
+        }
+      ]
+    }
+  ]
+}
