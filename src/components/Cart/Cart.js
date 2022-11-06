@@ -6,7 +6,7 @@ import { MdDeleteForever } from "react-icons/md";
 // Context
 import { GlobalContext } from "../../context/GlobalContext";
 
-export default function Cart() {
+export default function Cart({modalPayment,setModalPayment}) {
   // Sub Total
   const [total, setTotal] = useState(null);
   // All Total
@@ -152,7 +152,7 @@ export default function Cart() {
 
       <div className="two-btns-div">
         <button className="btn-red">Reset</button>
-        <button className="btn-success">
+        <button className="btn-success" onClick={() => setModalPayment(true)}>
           Pay Now{" "}
           <span className="money-icon">
             {" "}

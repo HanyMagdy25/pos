@@ -42,7 +42,7 @@ export default function ModalUser({ setModalUser }) {
                     <input
                       type="text"
                       placeholder="Enter Name"
-                      class="form-control"
+                      className="form-control"
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
@@ -51,7 +51,7 @@ export default function ModalUser({ setModalUser }) {
                     <input
                       type="email"
                       placeholder="Enter Email"
-                      class="form-control"
+                      className="form-control"
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
@@ -60,7 +60,7 @@ export default function ModalUser({ setModalUser }) {
                     <input
                       type="text"
                       placeholder="Enter Phone Number"
-                      class="form-control"
+                      className="form-control"
                       onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
@@ -69,7 +69,7 @@ export default function ModalUser({ setModalUser }) {
                     <input
                       type="text"
                       placeholder="Enter Country"
-                      class="form-control"
+                      className="form-control"
                       onChange={(e) => setCountry(e.target.value)}
                     />
                   </div>
@@ -78,7 +78,7 @@ export default function ModalUser({ setModalUser }) {
                     <input
                       type="text"
                       placeholder="Enter City"
-                      class="form-control"
+                      className="form-control"
                       onChange={(e) => setCity(e.target.value)}
                     />
                   </div>
@@ -87,7 +87,7 @@ export default function ModalUser({ setModalUser }) {
                     <input
                       type="text"
                       placeholder="Enter Address"
-                      class="form-control"
+                      className="form-control"
                       onChange={(e) => setAddress(e.target.value)}
                     />
                   </div>
@@ -98,7 +98,6 @@ export default function ModalUser({ setModalUser }) {
                     </button>
                     <button
                       className="btn-cancel"
-                      button
                       onClick={() => setModalUser(false)}
                     >
                       Cancel

@@ -11,8 +11,9 @@ import { HiOutlineUser } from "react-icons/hi";
 import Card from "../components/Card/Card";
 import Cart from "../components/Cart/Cart";
 // Data
-import { products } from "../utils/data";
+// import { products } from "../utils/data";
 import ModalUser from "../components/ModalUser/ModalUser";
+import ModalPayment from "../components/ModalPayment/ModalPayment";
 // Filter Names
 const CatsNames = ["Fruits", "Shoes", "Jackets"];
 
@@ -21,6 +22,8 @@ export default function Pos() {
   const [activeFilter, setActiveFilter] = useState("All Categories");
   // Modal User
   const [modalUser, setModalUser] = useState(false);
+  // Modal Payment
+  const [modalPayment, setModalPayment] = useState(false);
   // Fetch Users
   const [users, setUsers] = useState([]);
   // Fetch warehouses
@@ -85,6 +88,7 @@ export default function Pos() {
   return (
     <div className="pos">
       {modalUser && <ModalUser setModalUser={setModalUser} />}
+      {modalPayment && <ModalPayment setModalPayment={setModalPayment} />}
       <div className="pos-left">
         {/* ******** Left Top ********* */}
         <div className="pos-left-top">
@@ -140,7 +144,7 @@ export default function Pos() {
           </div>
         </div>
         <div className="pos-left-bottom">
-          <Cart />
+          <Cart modalPayment={modalPayment} setModalPayment={setModalPayment}/>
         </div>
       </div>
       <div className="pos-right">
